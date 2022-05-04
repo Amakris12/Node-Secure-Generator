@@ -7,10 +7,12 @@ app.use(express.json())
 app.use(express.static('./public'))
 require('dotenv').config()
 
+
 const port = 3000;
 
 // Navigation
 app.use('/',require('./routes/index.js'))
+
 
 const start = ()=>{
     try{

@@ -11,3 +11,13 @@ body {
 a{
   text-decoration: none;
 }
+.flex2{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width:90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:3rem;
+}
