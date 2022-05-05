@@ -20,6 +20,10 @@ navigation.get('/passwordGenerator',(req, res)=>{
   res.sendFile(path.join(__dirname,'../public/passwordGenerator.html'))
 })
 
+navigation.get('/passwordHolder',(req, res)=>{
+  res.sendFile(path.join(__dirname,'../public/passwordHolder.html'))
+})
+
 // Admin
 navigation.get('/adminHome',(req, res)=>{
   res.sendFile(path.join(__dirname,'../public/adminHome.html'))
