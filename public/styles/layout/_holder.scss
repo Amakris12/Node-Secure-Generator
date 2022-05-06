@@ -71,3 +71,23 @@
     color: $clr-main-1;
   }
 }
+
+.paswords-list{
+  margin-top:2rem;
+  h1{
+    text-align: center;
+    color: $clr-main-1;
+  }
+  hr{
+    border-top: 1px solid $clr-main-2;
+    width:30%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  ul{
+    li{
+      font-size:1.2rem;
+      text-align: center;
+    }
+  }
+}

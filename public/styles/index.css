@@ -619,6 +619,30 @@ textarea {
   background-color: rgb(255, 80, 80);
 }
 
+.btn-link2 {
+  position: absolute;
+  top: 33rem;
+  left: 38rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 20rem;
+  height: 4rem;
+  border: 1px solid rgb(255, 80, 80);
+  border-radius: 0.75rem;
+  background-color: rgb(255, 80, 80);
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.btn-link2:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.btn-link2:active {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
 .container-holder {
   margin-top: 3rem;
   padding: 30px;
@@ -680,52 +704,23 @@ textarea {
   background-color: white;
   color: rgb(255, 80, 80);
 }
-.container-holder .Saved {
+
+.paswords-list {
   margin-top: 2rem;
-  padding: 20px;
 }
-.container-holder .Saved h3 {
+.paswords-list h1 {
   text-align: center;
   color: rgb(255, 80, 80);
-  font-size: 2rem;
 }
-.container-holder .Saved hr {
-  width: 40%;
+.paswords-list hr {
+  border-top: 1px solid rgb(255, 51, 51);
+  width: 30%;
   margin-left: auto;
   margin-right: auto;
-  border-top: 1px solid rgb(199, 32, 32);
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-.container-holder .Saved .savedCompany {
-  margin-top: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.container-holder .Saved .savedCompany h4 {
-  margin-left: 1rem;
-  font-size: 1.5rem;
-}
-.container-holder .Saved .savedCompany input {
-  border-radius: 0.75rem;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  margin-left: 1rem;
-  padding: 5px;
-}
-.container-holder .Saved .savedCompany button {
-  margin-left: 1rem;
-  width: 13rem;
-  height: 2rem;
-  border-radius: 0.75rem;
-  border: 1px solid rgb(255, 51, 51);
+.paswords-list ul li {
+  font-size: 1.2rem;
   text-align: center;
-  background-color: rgb(255, 80, 80);
-  color: white;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-}
-.container-holder .Saved .savedCompany button:hover {
-  background-color: white;
-  color: rgb(255, 51, 51);
 }
 
 nav {

@@ -9,11 +9,11 @@
   width: 40rem;
   height: 30rem;
   hr {
-  border-top: 1px solid $clr-main-1;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-}
+    border-top: 1px solid $clr-main-1;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
   input {
     padding: 20px;
     user-select: none;
@@ -47,7 +47,6 @@
   font-family: sans-serif;
 }
 
-
 .gen {
   margin-top: 2rem;
   display: flex;
@@ -72,4 +71,34 @@
 #button:hover {
   color: white;
   background-color: $clr-main-1;
+}
+
+.btn-link2 {
+  position: absolute;
+  top: 33rem;
+  left: 38rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 20rem;
+  height: 4rem;
+  // padding: 15px;
+  border: 1px solid $clr-main-1;
+  border-radius: 0.75rem;
+  background-color: $clr-main-1;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.btn-link2:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.btn-link2:active {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
